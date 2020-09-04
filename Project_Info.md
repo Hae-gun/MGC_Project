@@ -2,22 +2,27 @@ MoGakCo Project
 
 ## 개요
 
-* 지도 API (google naver kakao중 택1) 를 이용한 지도 기반 개발자 모임 예약 모바일 앱
+* 지도 API (google naver kakao중 택1) 를 이용한 지도 기반 개발자 모임 예약 웹페이지.
 
 ## 구성
 
-REST ful
-
-* Spring Boot 를 이용한 지도기반 웹 스터디 모임 프로젝트
-
-* FE
+* Front-End
   * HTML, CSS, JS 이용.
-  * 카카오 맵 API 사용
-* 서버
+  * mutache Plugin 사용.
+  * 카카오 맵 API 사용.
+  
+* Back-End
   * SPRING BOOT : 2.1.7.RELEASE
-  * AWS 사용
+  * JPA 를 이용한 Entity Mapping
+  * AWS 사용 (EC2, RDS, CodeDeploy)
   * Travis-CI 사용
   * 도메인 : [ec2-3-34-76-133.ap-northeast-2.compute.amazonaws.com](http://ec2-3-34-76-133.ap-northeast-2.compute.amazonaws.com)
+  
+* Database
+
+  * MariaDB
+
+    
 
 ## VO
 

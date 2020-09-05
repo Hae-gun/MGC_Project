@@ -1,15 +1,17 @@
-MoGakCo Project
+# MoGakCo Project 
+
+> MoGakCo : 모여서 각자 코딩
 
 ## 개요
 
-* 지도 API (google naver kakao중 택1) 를 이용한 지도 기반 개발자 모임 예약 웹페이지.
+* 지도 API (google naver kakao중 택1) 를 이용한 지도 기반 개발스터디 예약 서비스
 
 ## 구성
 
 * Front-End
-  * HTML, CSS, JS 이용.
-  * mutache Plugin 사용.
-  * 카카오 맵 API 사용.
+  * HTML, CSS, JS 이용
+  * mutache Plugin 사용
+  * 카카오 맵 API 사용
   
 * Back-End
   * SPRING BOOT : 2.1.7.RELEASE
@@ -24,6 +26,12 @@ MoGakCo Project
 
     
 
+
+
+
+
+
+
 ## VO
 
 ## 개념 모델링
@@ -34,32 +42,9 @@ MoGakCo Project
 
 ## 논리적 모델링
 
-1. user.class
-   * id (pk) String
-   * password String
-   * email (이메일 인증) String (unique)
-   * location - 도로명 주소 이용. String
-   * phone number String
-   * logins_State boolean
-   
-2. place
 
-   * place_id(pk)
 
-   * name
-   * position
-   * available_time
-   * open/close
 
-3. reservation
-
-   * reservation_id(pk)
-
-   * users `map<user,String>` String : roomMaster, none (fk)
-   * place (fk)
-   * time
-
-   
 
 
 

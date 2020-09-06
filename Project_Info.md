@@ -12,19 +12,20 @@
   * HTML, CSS, JS 이용
   * mutache Plugin 사용
   * 카카오 맵 API 사용
-  
 * Back-End
   * SPRING BOOT : 2.1.7.RELEASE
   * JPA 를 이용한 Entity Mapping
   * AWS 사용 (EC2, RDS, CodeDeploy)
   * Travis-CI 사용
   * 도메인 : [ec2-3-34-76-133.ap-northeast-2.compute.amazonaws.com](http://ec2-3-34-76-133.ap-northeast-2.compute.amazonaws.com)
-  
 * Database
-
   * MariaDB
 
-    
+
+
+## Project Diagram
+
+![Diagram](Project_Info.assets/Diagram.png)
 
 
 
